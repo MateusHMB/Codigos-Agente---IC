@@ -1,7 +1,7 @@
 import requests, json, os
 
 
-contract_address = "0x29d2bcf0d70f95ce16697e645e2b76d218d66109"
+contract_address = "ENDEREÇO_DO_CONTRATO"
 API_KEY = os.getenv("API_KEY")
 
 req = requests.get(
